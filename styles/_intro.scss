@@ -32,8 +32,11 @@ nav {
     padding-top: 2rem;
     background: $gradient;
     background-clip: text;
-    -webkit-text-fill-color: transparent;
     display: inline-block;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
   }
   h3 {
     font-size: 6rem;
@@ -80,11 +83,11 @@ nav {
 }
 
 #me {
-  animation: me 1s ease infinite alternate;
+  animation: me 1.5s ease infinite alternate;
   transform-origin: bottom;
 }
 #clock-arrow {
-  animation: clock 1.5s infinite linear;
+  animation: clock 2s infinite linear;
   transform-box: fill-box;
   transform-origin: bottom;
 }
@@ -103,7 +106,7 @@ nav {
     transform: translateY(0%);
   }
   to {
-    transform: translateY(-20%);
+    transform: translateY(-10%);
   }
 }
 @keyframes clock {
