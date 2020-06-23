@@ -91,10 +91,10 @@ nav {
 
 @keyframes me {
   from {
-    transform: rotateZ(-5deg);
+    transform: rotateZ(-3deg);
   }
   to {
-    transform: rotateZ(5deg);
+    transform: rotateZ(3deg);
   }
 }
 
@@ -103,7 +103,7 @@ nav {
     transform: translateY(0%);
   }
   to {
-    transform: translateY(-30%);
+    transform: translateY(-20%);
   }
 }
 @keyframes clock {
